@@ -134,7 +134,7 @@
 .nav-text:active {
   user-select: none;
   text-decoration: none;
-  color: #76ff67;
+  color: #d6fd2a;
   transform: rotate(-90deg);
   text-shadow: 6px 6px 6px #15151566;
 }
