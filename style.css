@@ -62,10 +62,11 @@
 .gamma-image {
   grid-area: 1 / 1 / span 3 / span 3;
   display: flex;
+  margin: auto;
   align-items: center;
   justify-content: center;
-  max-width: 90vw;
-  padding: 5vh 5vw 5vh 5vw;
+  max-width: 80%;
+  padding: 2vh 2vw;
 }
 .gamma-logo {
   display: flex;
@@ -87,40 +88,40 @@
   transition: all 0.3s ease-out;
 }
 .footer {
-    padding-right: 1vh;
-    padding-bottom: 1vh;
+  padding-right: 1vh;
+  padding-bottom: 1vh;
   color: black;
-  font-size: .8rem;
+  font-size: 0.8rem;
   grid-area: 3 / 3;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
 }
 #a1 {
-  display: flex;
+  display: absolute;
   padding: clamp(20%, 10% + 10vw, 10%);
   grid-area: 2 / 3 / span 2 / span 2;
   z-index: -1;
+  margin: auto;
   justify-content: flex-start;
   overflow: hidden;
 }
 #a2 {
-  display: flex;
-  padding: clamp(20%, 10% + 10vw, 10%);
+  display: absolute;
+  padding: clamp(30%, 10% + 10vw, 20%);
   grid-area: 3 / 1 / span 2 / span 3;
   z-index: -1;
+  margin: auto;
   overflow: hidden;
   max-width: 40%;
   transform: rotate(-120deg);
-
 }
-
 .about,
 .digital,
 .physical,
 .contact {
-    user-select: none;
-    text-decoration: none;
+  user-select: none;
+  text-decoration: none;
   transform: rotate(-90deg);
   text-shadow: 2px 2px 3px #15151566;
 }
@@ -128,8 +129,8 @@
 .digital:hover,
 .physical:hover,
 .contact:hover {
-    user-select: none;
-    text-decoration: none;
+  user-select: none;
+  text-decoration: none;
   color: #76ff67;
   text-shadow: 6px 6px 6px #15151566;
 }
@@ -137,8 +138,8 @@
 .digital:active,
 .physical:active,
 .contact:active {
-    user-select: none;
-    text-decoration: none;
+  user-select: none;
+  text-decoration: none;
   color: #76ff67;
   text-shadow: 6px 6px 6px #15151566;
 }
@@ -146,8 +147,8 @@
 .digital:visited,
 .physical:visited,
 .contact:visited {
-    user-select: none;
-    text-decoration: none;
+  user-select: none;
+  text-decoration: none;
   color: #d6fd2a;
   text-shadow: 6px 6px 6px #15151566;
 }
