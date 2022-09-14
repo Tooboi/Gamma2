@@ -102,7 +102,6 @@
   padding: clamp(20%, 10% + 10vw, 10%);
   grid-area: 2 / 3 / span 2 / span 2;
   z-index: -1;
-  margin: auto;
   justify-content: flex-start;
   overflow: hidden;
 }
@@ -111,52 +110,41 @@
   padding: clamp(30%, 10% + 10vw, 20%);
   grid-area: 3 / 1 / span 2 / span 3;
   z-index: -1;
-  margin: auto;
   overflow: hidden;
-  max-width: 40%;
+  max-width: 24vw;
   transform: rotate(-120deg);
 }
-.about,
-.digital,
-.physical,
-.contact {
+#nav {
+  margin: auto;
   user-select: none;
   text-decoration: none;
+  color: #76ff67;
   transform: rotate(-90deg);
   text-shadow: 2px 2px 3px #15151566;
 }
-.about:hover,
-.digital:hover,
-.physical:hover,
-.contact:hover {
+#nav:hover {
   user-select: none;
   text-decoration: none;
   color: #76ff67;
+  transform: rotate(-90deg);
   text-shadow: 6px 6px 6px #15151566;
 }
-.about:active,
-.digital:active,
-.physical:active,
-.contact:active {
+#nav:active {
   user-select: none;
   text-decoration: none;
   color: #76ff67;
+  transform: rotate(-90deg);
   text-shadow: 6px 6px 6px #15151566;
 }
-.about:visited,
-.digital:visited,
-.physical:visited,
-.contact:visited {
+#nav:visited {
   user-select: none;
   text-decoration: none;
   color: #d6fd2a;
+  transform: rotate(-90deg);
   text-shadow: 6px 6px 6px #15151566;
 }
 @media only screen and (max-height: 700px) {
-  .about,
-  .digital,
-  .physical,
-  .contact {
+  #nav {
     transform: rotate(0deg);
   }
 
@@ -167,10 +155,7 @@
   }
 }
 @media only screen and (min-width: 1024px) {
-  .about,
-  .digital,
-  .physical,
-  .contact {
+  #nav {
     transform: rotate(0deg);
   }
   .nav-menu {
