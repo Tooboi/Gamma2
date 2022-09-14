@@ -27,10 +27,10 @@
   list-style: none;
 }
 .fontS {
-  font-size: clamp(1rem, 1rem + 10vw, 2.5rem);
+  font-size: clamp(.8rem, 10vw, 2.1rem);
 }
 .fontM {
-  font-size: clamp(2rem, 1rem + 10vw, 4rem);
+  font-size: clamp(2rem, 10vw, 4rem);
 }
 .lime1 {
   color: #d6fd2a;
@@ -114,7 +114,7 @@
   max-width: 24vw;
   transform: rotate(-120deg);
 }
-#nav {
+.nav-text {
   margin: auto;
   user-select: none;
   text-decoration: none;
@@ -122,21 +122,21 @@
   transform: rotate(-90deg);
   text-shadow: 2px 2px 3px #15151566;
 }
-#nav:hover {
+.nav-text:hover {
   user-select: none;
   text-decoration: none;
   color: #76ff67;
   transform: rotate(-90deg);
   text-shadow: 6px 6px 6px #15151566;
 }
-#nav:active {
+.nav-text:active {
   user-select: none;
   text-decoration: none;
   color: #76ff67;
   transform: rotate(-90deg);
   text-shadow: 6px 6px 6px #15151566;
 }
-#nav:visited {
+.nav-text:visited {
   user-select: none;
   text-decoration: none;
   color: #d6fd2a;
@@ -144,7 +144,7 @@
   text-shadow: 6px 6px 6px #15151566;
 }
 @media only screen and (max-height: 700px) {
-  #nav {
+  .nav-text {
     transform: rotate(0deg);
   }
 
@@ -155,7 +155,7 @@
   }
 }
 @media only screen and (min-width: 1024px) {
-  #nav {
+  .nav-text {
     transform: rotate(0deg);
   }
   .nav-menu {
